@@ -1,2 +1,5 @@
-# mycelium-network.github.io
-The static webpage for the mycelium poroject.
+# MYCELIUM - Share in a network
+
+The website is under construction!
+
+Visit us on [github](https://github.com/mycelium-network/) for more information about the mycelium project.
