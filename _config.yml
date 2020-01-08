@@ -14,9 +14,9 @@ baseurl:           "/"
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot:      2973388149
-data-ad-client:    ca-pub-9204963049240271
-google_ad_client:  ca-pub-9204963049240271
+# data-ad-slot:      2973388149
+# data-ad-client:    ca-pub-9204963049240271
+# google_ad_client:  ca-pub-9204963049240271
 
 post_limit:        5
 
@@ -52,6 +52,7 @@ production_url :   https://www.mycelium.space
 #
 JB :
   version :        0.3.0
+  analytics:       false
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
@@ -100,35 +101,35 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider :     disqus
-    disqus :
-      short_name : jeky-new-age
-    #livefyre :
-    #  site_id :
-    #intensedebate :
-    #  account :
-    #facebook :
-    #  appid :
-      num_posts:   5
-      width:       580
-      colorscheme: light
+  # comments :
+  #   provider :     disqus
+  #   disqus :
+  #     short_name : jeky-new-age
+  #   #livefyre :
+  #   #  site_id :
+  #   #intensedebate :
+  #   #  account :
+  #   #facebook :
+  #   #  appid :
+  #     num_posts:   5
+  #     width:       580
+  #     colorscheme: light
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider :     google
-    google :
-        tracking_id : 'UA-94080000-1'
-    getclicky :
-      site_id :
-    mixpanel :
-        token :    '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL :  'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite :   '1'                   # the id of the site on Piwik
+  # analytics :
+  #   provider :     google
+  #   google :
+  #       tracking_id : 'UA-94080000-1'
+  #   getclicky :
+  #     site_id :
+  #   mixpanel :
+  #       token :    '_MIXPANEL_TOKEN_'
+  #   piwik :
+  #       baseURL :  'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #       idsite :   '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
