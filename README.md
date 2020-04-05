@@ -1,5 +1,3 @@
-# MYCELIUM - Share in a network
+# Mycelium-Network Website
 
-The website is under construction!
-
-Visit us on [github](https://github.com/mycelium-network/) for more information about the mycelium project.
+This repository contains the project website and blog.

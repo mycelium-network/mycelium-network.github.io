@@ -1,0 +1,70 @@
+---
+---
+
+// @import 'bootstrap/bootstrap';
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  height: 100vh;
+  // width: 100vw;
+  background: url("../img/stock/support.jpg") no-repeat center center;
+  position: relative;
+}
+
+.btn .btn-success {
+  margin: 5px;
+}
+
+.top {
+  padding-top: 100px;
+}
+
+#mapid { 
+  height: 91vh; 
+  width: 100vw;
+}
+
+.map {
+  margin-top: 80px;
+  z-index: 0;
+}
+
+#mod {
+  z-index: 100;
+  margin-top: 14vh;
+}
+
+// Timeline
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
